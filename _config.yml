@@ -1,6 +1,17 @@
 ---
-title: Website
-timezone: UTC
+title: All I Wanna Buy
+description: > # this means to ignore newlines until "baseurl:"
+  Website description.
+lang: fr
+timezone: Europe/Paris
+author: Author name
+google_analytics:
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+permalink: /blog/:title.html
 collections:
   posts:
     title: Posts

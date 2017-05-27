@@ -8,18 +8,29 @@ collections:
   uploads:
     title: Uploads
     output: true
-  wants:
-    title: Wants
-    output: true
-description: 'Website description.
-
-'
+defaults:
+  - scope:
+      type: posts
+      path: _posts
+    values:
+      layout: default
+description: 'Website description.'
 lang: fr
 author: Author name
-google_analytics: 
+google_analytics:
 gems:
 - jekyll-feed
+- jekyll-paginate-v2
 exclude:
 - Gemfile
 - Gemfile.lock
-permalink: "/blog/:title.html"
+permalink: "/:categories/:title/"
+pagination:
+  enabled: true
+  per_page: 1
+autopages:
+  enabled: true
+  categories:
+    permalink: '/:cat'
+  tags:
+    permalink: '/:tag'

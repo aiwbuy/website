@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.autopages.display_name }}</h1>
+
+<ul>
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% include pagination.html %}

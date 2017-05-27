@@ -1,6 +1,6 @@
 ---
 title: This is my first product
-date: 2017-05-12 18:18:00 Z
+date: 2017-05-12 20:18:00 +02:00
 categories:
 - Catalogue
 tags:

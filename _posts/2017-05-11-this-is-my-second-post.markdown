@@ -1,6 +1,6 @@
 ---
 title: This is my second post
-date: 2017-05-11 18:18:00 Z
+date: 2017-05-11 20:18:00 +02:00
 categories:
 - Blog
 ---

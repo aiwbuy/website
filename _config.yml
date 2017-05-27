@@ -9,15 +9,15 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      type: posts
-      path: _posts
-    values:
-      layout: default
-description: 'Website description.'
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: default
+description: Website description.
 lang: fr
 author: Author name
-google_analytics:
+google_analytics: 
 gems:
 - jekyll-feed
 - jekyll-paginate-v2
@@ -31,6 +31,6 @@ pagination:
 autopages:
   enabled: true
   categories:
-    permalink: '/:cat'
+    permalink: "/:cat"
   tags:
-    permalink: '/:tag'
+    permalink: "/:tag"
